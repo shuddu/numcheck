@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Number Checker </h2>
+
+  <table style="border: 2px solid goldenrod;">
+    <tr>
+        <td colspan="2">Enter number : <input type="text" id="fnum"/></td>
+    </tr>
+      
+    <tr>
+        <td colspan="2">Result : <span id="result"></span></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td><input type="button" onclick="armstrong()"value="Armstrong"/></td>
+        <td><input type="button" onclick="palindrome()"value="Palindrome"/></td>   
+    </tr>
+  
+    <tr>
+        <td><input type="button" onclick="oddeven()"value="Odd/Even"/></td>
+        <td><input type="button" onclick="prime()"value="Prime"/></td>
+    </tr>
+    
+    <tr>
+        <td><input type="button" onclick="clr()"value="clear"/></td>       
+    </tr>
+    
+</table>
+<script src="prac.js"></script>    
+</body>
+</html>
